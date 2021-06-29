@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>D:\carlos\educ\obj1\proyectos-2019s1\starwars\.README.md.html</title>
+<title>C:\Users\Eris\Documents\uni\objetos1\objetos1\starWarsParcial\.README.md.html</title>
 
 
 <style type="text/css">
@@ -640,8 +640,10 @@ function setDocumentScrollTop(ypos)
 </head>
 <body class="markdown-body">
 <h1> <a id="star-wars" class="anchor" href="#star-wars" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Star Wars</h1> 
+<p><a href="ForkJoinWars.jpg" target="_blank" rel="noopener noreferrer"><img src="ForkJoinWars.jpg" alt="" style="max-width:100%;" /></a></p> 
+<p><strong>Hace mucho tiempo, en una cursada muy muy lejana, antiguos programadores tuvieron la tarea de hacer un sistema para modelar las personas y los planetas de la galaxia pero su tarea qued&oacute; inconclusa. Sabemos que pronto la fuerza volver&aacute; a despertar y el desarrollo tiene que estar listo, por lo que necesitamos continuar y terminar la tarea inconclusa.</strong></p> 
+<p><em>“El miedo es el camino hacia el Lado Oscuro: el miedo lleva a la ira, la ira lleva al odio, el odio lleva al sufrimiento.”</em></p> 
 <h2> <a id="modelo-b&aacute;sico-de-personas-y-planetas" class="anchor" href="#modelo-b%C3%A1sico-de-personas-y-planetas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modelo b&aacute;sico de personas y planetas.</h2> 
-<p>Nos piden armar parte del modelo de un juego con tem&aacute;tica de Star Wars, que incluye a los planetas y a sus habitantes.</p> 
 <p>De cada <strong>persona</strong> se registra su <em>edad</em>, o sea cu&aacute;ntos a&ntilde;os tiene. Deben poder obtenerse: la <em>potencia</em>, la <em>inteligencia</em> y si es o no <em>destacado</em> de cada personas. Potencia e inteligencia son dos valores num&eacute;ricos. En principio, corresponden estas definiciones:</p> 
 <ul> 
  <li>la <em>inteligencia</em> es de 12 para las personas de entre 20 y los 40 a&ntilde;os, y de 8 para las otras.</li> 
@@ -649,7 +651,7 @@ function setDocumentScrollTop(ypos)
  <li>una persona <em>es destacada</em> si tiene, exactamente, 25 &oacute; 35 a&ntilde;os. O sea, si una persona tiene 25 a&ntilde;os es destacada, si tiene 35 a&ntilde;os es destacada, si tiene cualquier otra edad no es destacada.</li> 
 </ul> 
 <p>Adem&aacute;s de estas definiciones que sirven para la generalidad de las personas, se definen algunos tipos de personas con caracter&iacute;sticas especiales. En principio vamos a contemplar a los atletas y los docentes.</p> 
-<p>De cada <strong>atleta</strong> se mantienen la masa muscular (que comienza en 4 kilos) y la cantidad de t&eacute;cnicas que conoce (que comienza en 2).<br /> La <em>potencia</em> de un atleta es la suma del valor com&uacute;n para todas las personas, con la multiplicaci&oacute;n entre masa muscular y cantidad de t&eacute;cnicas que conoce.<br /> Un atleta <em>es destacado</em> si cumple la condici&oacute;n com&uacute;n para todas las personas, o bien, conoce m&aacute;s de 4 t&eacute;cnicas.<br /> Definir las siguientes dos acciones para los atletas:</p> 
+<p>De cada <strong>atleta</strong> se conocen la masa muscular (que comienza en 4 kilos) y la cantidad de t&eacute;cnicas que conoce (que comienza en 2).<br /> La <em>potencia</em> de un atleta es la suma del valor de potencia para todas las personas, con la multiplicaci&oacute;n entre masa muscular y cantidad de t&eacute;cnicas que conoce.<br /> Un atleta <em>es destacado</em> si cumple la condici&oacute;n com&uacute;n para todas las personas, o bien, conoce m&aacute;s de 5 t&eacute;cnicas.<br /> Definir las siguientes dos acciones para los atletas:</p> 
 <ul> 
  <li> <em>entrenar</em> una cantidad de d&iacute;as: el efecto es sumar a la masa muscular 1 kilo por cada 5 d&iacute;as de entrenamiento. P.ej. el efecto de entrenar 15 d&iacute;as, es sumar 3 kilos a la masa muscular.</li> 
  <li> <em>aprender una t&eacute;cnica</em>: el efecto es sumar uno a la cantidad de t&eacute;cnicas que conoce el atleta.</li> 
@@ -743,9 +745,9 @@ function setDocumentScrollTop(ypos)
 </ul> 
 <p>Y la siguiente acci&oacute;n: <em>recibir tributos</em>. Cuando ocurre esto, cada habitante ofrece su tributo <strong>al planeta</strong>. Para un docente, el tributo es fundar un museo. Para un atleta, es construir 2 kil&oacute;metros de murallas. Las personas gen&eacute;ricas no tienen nada que ofrecer; cuando se les pide que ofrezcan su tributo a un planeta, no hace nada.</p> 
 <h2> <a id="valor-de-cada-persona" class="anchor" href="#valor-de-cada-persona" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Valor de cada persona</h2> 
-<p>Agregar la capacidad de preguntarle a cualquier persona su <em>valor</em>, que es la suma de potencia m&aacute;s inteligencia. Para los docentes, se suman 5 unidades adicionales.<br /> Se debe poder consultar, para un planeta, la colecci&oacute;n de <em>habitantes valiosos</em>, que son aquellos cuyo valor es de 40 o m&aacute;s.</p> 
+<p>Agregar la capacidad de preguntarle a cualquier persona su <em>valor</em>, que es la suma de potencia m&aacute;s inteligencia. Unicamente para los docentes, se suman 5 unidades adicionales.<br /> Se debe poder consultar, para un planeta, la colecci&oacute;n de <em>habitantes valiosos</em>, que son aquellos cuyo valor es de 40 o m&aacute;s.</p> 
 <h2> <a id="apaciguar-a-otro-planeta" class="anchor" href="#apaciguar-a-otro-planeta" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Apaciguar a otro planeta</h2> 
-<p>Agregar para un planeta, la acci&oacute;n de <em>apaciguar</em> a otro planeta. Cuando se le pide a un planeta X que apacig&uuml;e a otro planeta Y, lo que debe ocurrir es que cada habitante vaioso de X ofrezca su tributo a Y.<br /> P.ej. si tenemos dos planetas, Trit&oacute;n y Paleas, y se le pide a Trit&oacute;n que apacig&uuml;e a Paleas, el efecto debe ser que todos los habitantes valiosos de Trit&oacute;n ofrezcan su tributo a Paleas.</p> 
+<p>Agregar para un planeta, la acci&oacute;n de <em>apaciguar</em> a otro planeta. Cuando se le pide a un planeta X que apacig&uuml;e a otro planeta Y, lo que debe ocurrir es que cada habitante valioso de X ofrezca su tributo a Y.<br /> P.ej. si tenemos dos planetas, Trit&oacute;n y Paleas, y se le pide a Trit&oacute;n que apacig&uuml;e a Paleas, el efecto debe ser que todos los habitantes valiosos de Trit&oacute;n ofrezcan su tributo a Paleas.</p> 
 <h2> <a id="soldados" class="anchor" href="#soldados" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Soldados</h2> 
 <p>Agregar un nuevo tipo espec&iacute;fico de personas, los <strong>soldados</strong>. Cada soldado tiene una colecci&oacute;n de armas. La <em>potencia</em> de un soldado es la suma del valor com&uacute;n para todas las personas, con la suma de la potencia que cada arma le otorga <strong>a ese soldado</strong>. El <em>tributo</em> que un soldado ofrece a una ciudad es construir 5 kil&oacute;metros de murallas.</p> 
 <p>Se deben considerar estos dos tipos de armas:</p> 
